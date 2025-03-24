@@ -1,0 +1,70 @@
+body{
+    background-color: aliceblue;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+
+}
+
+ h1{
+    font-size:xx-large;
+    color: crimson;
+    
+} 
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large
+    
+
+}
+
+.title{
+    color: black;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.place{
+    display: flex;
+    justify-content: space-around;
+}
+
+.maine{
+    color: black;
+}
+
+.img{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 50%;
+    
+}
+
+.za{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.a{
+    padding: 1rem;
+    width: 1%;
+}
+.b{
+    padding: 1rem;
+    width: 1%;
+}
+
+  .a:hover img,
+  .b:hover img{
+    transform: scale(1.2);
+
+  }
+
